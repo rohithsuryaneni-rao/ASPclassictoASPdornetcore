@@ -1,0 +1,23 @@
+<script language="VBScript" runat="Server">
+
+Sub Application_OnStart
+    ' Code to run when the application starts
+    Application("VisitorCount") = 0
+End Sub
+
+Sub Application_OnEnd
+    ' Code to run when the application ends
+End Sub
+
+Sub Session_OnStart
+    ' Code to run when a new session starts
+    Application.Lock
+    Application("VisitorCount") = Application("VisitorCount") + 1
+    Application.UnLock
+End Sub
+
+Sub Session_OnEnd
+    ' Code to run when a session ends
+End Sub
+
+</script>
