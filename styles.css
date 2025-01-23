@@ -1,0 +1,29 @@
+/* Basic styling for an ASP Classic page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    color: #0078d7;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #0078d7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056a3;
+}
