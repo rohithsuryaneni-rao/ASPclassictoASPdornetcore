@@ -1,6 +1,0 @@
-CREATE TABLE Users (
-    ID AUTOINCREMENT PRIMARY KEY,
-    Username TEXT(50),
-    Password TEXT(50),
-    Email TEXT(100)
-);
